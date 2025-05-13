@@ -1,0 +1,74 @@
+*{
+    text-decoration: none;
+}
+.logo a{
+    font-size: 25px;color:black;font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.h1{
+    font-size: 35px;font-weight: 600;
+}
+li{
+    list-style: none; display: inline;/* for singl of home about.... without .   */
+}
+
+li a{
+    color:black;font-family:cursive;font-size: 18px;font-weight: bold;margin-right: 25px;
+}
+
+body{
+   background-image:url("musicicon.webp");
+}
+.navbar{
+    background: lightpink;font-family:'Times New Roman', Times, serif;padding-right: 15px;padding-left: 15px;
+}
+.dashboard{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.signin{
+    background-color: rgb(164, 16, 164);
+color:white;
+font-weight: bold;
+border: none;
+height:40px;
+width:100px;
+border-radius: 2.5px;
+border-width:1px;
+cursor: pointer;
+margin-right:8px;
+transition:opacity 0.15s;
+}
+.signin:hover{
+    background-color: rgb(106, 19, 106);  
+}
+.signin:active{
+    opacity:0.5;
+}
+
+.signup{
+    color:rgb(108, 117, 125);
+    font-weight:bold;
+    background-color:white;
+    border-radius:4px;
+    height:40px;
+    width:100px;
+    border-color:rgb(108, 117, 125);
+    border-width: 1px;
+    cursor:pointer;
+    transition: background-colour 0.15s,color 0.15s;
+    margin-left: 8px;
+    
+}
+.signup:hover{
+    background-color:rgb(108, 117, 125);
+    color:white;
+    
+}
+.signup:active{
+    opacity:0.8;
+}

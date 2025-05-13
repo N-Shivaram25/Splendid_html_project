@@ -1,0 +1,106 @@
+*{
+    font-family:'Times New Roman', Times, serif ;
+}
+
+body{
+    background-color: rgba(38, 29, 38, 0.197);
+}
+h1{
+    color:violet;
+}
+button{
+    color:red;
+    background-color: black;
+}
+#A8{
+    color:chocolate;
+}
+#B9{
+    color: blue;
+}
+.A65{
+    color:rgb(250, 34, 34);
+
+}
+/* use color picker in google for to get exact gradient color u want of rgb colors*/
+/* for big projects to get nice color presentation we use color palete EX:coolors.co*/
+/* when universal selector is there or whatever we changed after.. for samething applied color will the new one!!*/
+
+#box{
+    background-color: blue; 
+}
+h1,h2,h4{
+    color: rgb(29, 204, 231);
+}
+button{
+    background-color: green;
+}
+/* <-----ctrl+/ to get comment */
+/* Inline has more priority */
+/* Lorem used to get large para */
+p{
+     text-align: start;/*by default text has left align  *//*Starleft align,end=right align*/
+}
+.heading{
+    color:black;
+    text-decoration: line-through;
+    ;
+}
+.Amazon{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+.zomato{
+    text-align: right;
+    color:black;
+    text-decoration: overline;
+}
+
+/*text-decoration:underline/overline/line-through*/
+a{
+    text-decoration:none ;/* to remove underline on anchor tag*/
+}
+/* To study about css properties we have a resource "mdn" like search mdn text decoration*/
+.shivarockz{
+    color:black;
+    text-decoration: rgb(0, 255, 102) underline;
+    
+}
+.iconstar{
+    
+        color:black;
+        text-decoration: rgb(0, 255, 102) wavy underline;
+        text-align: center;
+}
+.Rebelstar{
+    color:black;
+        text-decoration: rgb(0, 255, 102) dotted underline;
+        text-align: right;
+        font-weight: lighter;             /*font weight will be from 100 to 900*/
+}
+/*We can change the styling temporarily using inspect, click on element selector cliclk on any para choose style*/
+/* to get different font families search on google font styles list it will give*/
+.stark{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#one{
+    font-size: 25px;
+    line-height: 50px;/*lineheight*/
+    text-transform: capitalize;
+}
+#two{
+    font-size:10px;  
+}
+/*text-transform proprty:ippercase/lowercase/capitalise/none*/
+#h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+}
+#outer{
+    font-size:25px;
+}
+#inner{
+    font-size: 10px;
+}

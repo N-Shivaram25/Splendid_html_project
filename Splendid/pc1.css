@@ -1,0 +1,56 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "Crimson Text", serif;/* from google fonts which linked in head tag*/
+
+}
+/* for to not get interrupt from any default padding and margin any */
+.hero-section{
+    background-image: url("interior.jpg");
+    background-size: cover; /* it covers entire screen */
+    background-blend-mode: overlay;/* blend the background with overlay */
+    background-color: rgba(0, 0, 0, 0.5);
+    height:100vh;/* vh stands for viewport height , 100 means full screen of view */
+    position: ;/* hero-text ''position'' property got connection with hero-section*/  /*(relative) not necessary*/
+    text-align:center;
+    /* To use fonts we use google fonts */
+}
+.hero-text{
+    color:white;
+    position: absolute;/* to position exact  */ /*very important to get proper text in exact position*/
+    top:50%; /* from top 50% given space   */ /*to move the text at what percent from top */
+    left:50%; /* from left 50% given space   */ /*to move the text at what percent from left */
+    transform:  translate(-50%,-50%);/* for above text  to be in center x and y axis should have this syntax*/
+}
+.book-button,
+    .know-button{
+    background-color: aqua;
+    font-size: 15px;
+    border-radius: 20px;
+    border:none;
+    padding:10px 10px ;/* when we give padding it applied on top right  bottom left */
+    margin-top:10px; /* for space top outside book button*/
+    cursor: pointer;
+}
+.amenities{
+    display:block;/* occupies space without overlapping around*/
+    text-align: center;
+}
+.amenities ul{
+    display:inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.about-us{
+    float:left;
+    width:50%; /* 50% at left it occupied the text*/
+    margin: 10px 10px;
+    text-align: center;
+}
+.about-section > h1{
+    margin:10px 0px;/* for left and right*/
+    text-align: center;
+    text-decoration: underline;
+
+}

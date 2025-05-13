@@ -1,0 +1,29 @@
+body{
+    background-color: grey;
+}
+.container{
+    background-color: aquamarine;
+    display: flex;/* flex is always applied to the parent element */
+    /* flex makes every element of child  elements as flex elements */
+    /* all the elements which are aligned top of one another will be arranged as side by side (horizontal)*/
+    /*justify-content: center; 
+      justify-content: space-around;*//* here from flex we can use some properies like justify content*/
+      justify-content: space-between;
+      /* align-items: center; making every element center of  web page of container tag */
+      height:500px;/* changing height of container*/
+      align-items: center;
+      /* align-items: flex-start;  it align items at starting means top similarly end at bottom */
+      /* flex-direction: column; to apply flex in vertical */
+      flex-direction: column-reverse; /* to reverse the elements in the column*/
+      /* by default flex direction is row */
+      
+}
+.first,.second,.third{
+    background-color: yellow;
+    margin:10px;
+    padding: 10px;
+
+}
+/* .second{
+    flex-grow: 1;* here the space that is left in betweeen element that will be taken by using flex grow 
+}

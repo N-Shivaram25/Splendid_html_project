@@ -1,0 +1,183 @@
+/*body{
+    background-color: hsla(188, 87%, 50%, 0.5);/*tomato
+}*/
+body{
+    background-image: url("lightpb.jpg") ;
+    background-position: right top;
+    background-repeat: no-repeat;
+    margin-right: 200px;
+    background-attachment: fixed;
+    
+    
+}
+h1{
+    color:white;
+    text-align:center;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+#para1{
+    text-align: center;
+    
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+}
+p.para2{
+    text-align: center;
+    color: burlywood;
+    background-color: darkslategray;
+    border-radius: 12px;
+
+}
+p.large{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}/*grouping selector there we have ended*/
+h2{
+    background-image: url("pinkl.webp");
+    color: white;
+    /*border:5px solid rgb(32, 181, 222);*/
+}
+
+h2.shreekar{
+    background-image: url("pinkl.webp");
+    color: white;
+    
+    /*border:5px solid sandybrown;*/
+}
+
+h2.praharsha{
+    background-image: url("pinkl.webp");
+    color: white;
+    /*border:5px solid violet;*/
+}
+p.para3{
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+    border-style:solid;
+    border-width:thick;
+}
+p.para4{
+    font-size:300%;
+    font-style: italic;
+    border-style: dotted;
+    border-width: thin;
+    border-color:  red black;
+
+}
+p.para5{
+    font-size:300%;
+    font-style: italic;
+    border-style: dotted;
+    border-width: medium;
+    border-color:black;
+
+}
+p.para6{
+    font-size:300%;
+    font-style: italic;
+    border-style: double;
+    border-width:15px ;
+    border-color: red green blue yellow;
+
+}
+p.para7{
+    font-size:300%;
+    font-style: italic;
+    border-top-style: dotted;
+    
+    border-left-style: double;
+    border-right-style:dashed ;
+    border-bottom-style: solid;
+    border-width:medium;
+    /*border-width: thin;*/
+    border-color:  rgb(0, 255, 251) black burlywood rgb(0, 234, 255);
+
+}
+p.para8{
+    font-size:300%;
+    font-style: italic;
+    border-style: dashed dotted double solid;
+    border-width: medium;
+    border-color:black;
+
+}
+p.para9{
+    font-size:300%;
+    font-style: italic;
+    border-style: double dotted solid double;
+    border-width:15px ;
+    border-color: rgb(47, 255, 0) rgb(14, 17, 14) rgb(124, 124, 196) yellow;
+
+}
+p.para10{
+    font-size:300%;
+    font-style: oblique;
+    border: 12px solid gray;/*width style color*/
+    font-weight: bold;
+    border-radius:40px ;
+}
+p.para11{
+    font-size:300%;
+    font-family:cursive;
+    font-weight: bold;
+    border-left: 12px solid red ;
+    margin:auto;
+}
+p.para12{
+    font-size:300%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border-bottom: 12px solid red ;
+    margin: 170px 20px 10px 250px; /*top right bottom left*/
+}
+div{
+    margin-right:600px;
+    background-image:url("kurchi.webp") ;
+    
+    background-repeat: no-repeat;
+    background-attachment:scroll ;
+    background-position:right;
+    background-size: cover;*/
+    
+}
+p.para13{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    font-size:300%;
+
+}
+p.para14{
+    color: black;
+    font-size: 120px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    margin-right: inherit;
+   
+}
+p.para15{
+    color: white;
+    font-size:300%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    border-left: 12px solid  violet ;
+    margin-right: inherit;
+    
+    
+}
+p.para16{
+    background-image: url("Prabhas\ 💫.jpg") ;
+    height:800px;
+    background-repeat: no-repeat;
+    
+
+    padding-top:100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+

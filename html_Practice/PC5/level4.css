@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+    
+
+}
+#navbar{
+    height:60px;
+    background-color: black;
+    color:white;
+}
+
+button{
+    background-color: #f08804;
+    color:white;/*it changes inline element div to an block element */
+
+
+}
+#logo{
+    margin-left: 200px;
+    color:#f08804;
+    font-size:25px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    color:white;
+}
+input{
+    margin-left: 200px;
+}
+
+.contentbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display:inline-block;
+    
+}
+#content{
+    height:800px;
+
+}
+/* content basically is a like a div */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

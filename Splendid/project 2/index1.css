@@ -1,0 +1,247 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Crimson Text", serif;/* from google fonts which linked in head tag*/
+
+}
+/* for to not get interrupt from any default padding and margin any */
+
+
+html{
+    /*font-size: 25px;  for child element 1 rem =25px*/
+}
+.hero-section{
+    background-image: url("interior-design.jpg");
+    background-size: cover; /* it covers entire screen */
+    background-blend-mode: overlay;/* blend the background with overlay */
+    background-color: rgba(0 ,0, 0,0.5);
+    height:100vh;/* vh stands for viewport height , 100 means full screen of view */
+    max-width: 100vw;/*the image will not go more than 100% of its width ,preventing shaking of image horizontal*/
+    position: relative;/* hero-text ''position'' property got connection with hero-section*/
+
+
+    /* To use fonts we use google fonts */
+}
+.hero-text{
+    color:white;
+    position: absolute;/* to position exact  */
+    top:50%; /* from top 50% given space   */
+    left:50%; /* from left 50% given space   */
+    transform:translate(-50%,-50%);/* changing x and y-axis of text according height and width */
+    font-size: 10px;/* em will take parent element font size*/
+    /* rem will take html font size*/
+}
+
+
+
+
+
+ p{
+    font-size: 1rem;
+}
+.book-button,
+    .know-button{
+    background-color: aqua;
+    font-size: 15px;
+    border-radius: 20px;
+    border:none;
+    padding:8px 10px ;/* when we give padding it applied on top right  bottom left */
+    margin:10px; /* for space top outside book button*/
+    cursor: pointer;
+}
+.amenities{
+    display:block;/* occupies space without overlapping around*/
+    text-align: center;
+}
+.amenities ul{
+    display:inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.about-us{
+    float:left;
+    width:50%; /* 50% at left it occupied the text*/
+    margin: 10px 10px;
+    text-align: center;
+}
+.about-section,.hero-section{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-heading,.know-button-container,.room-heading,.form-heading{
+    text-align: center;
+}
+.about-us{
+    width:50%;
+}
+
+.about-section > h1{
+    text-decoration: underline;
+
+}
+ul li{
+    list-style: none;
+
+}
+.fa-solid{
+    margin-right: 10px;
+    
+}
+.room-images img{
+max-width: 100%;
+
+}
+.room-type-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.room-list h4{
+    font-size: 20px;
+}
+.help-button{
+    background-color: beige;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+
+
+}
+.help-button h4{
+   
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+form{
+    border: 2px solid grey;
+    width: max-content;
+    padding: 20px;
+    border-radius: 25px;
+    margin:30px 0px ;
+    
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+label{
+    font-size: 20px;
+}
+input,select{
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width:500px){
+.hero-text>h1{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.about-heading,
+.room-heading,
+.form-heading{
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+.about-heading{
+    margin:0.5rem 0rem;
+}
+
+    p{
+        font-size: 1rem;/* for phone*/
+    }
+    .hero-text{
+        width: fit-content;
+    }
+    .about-section,
+    .room-type-container{
+        display: block;
+        padding:0rem 0.5rem;
+    }
+    .about-us{
+        width: 100%;
+        
+    }
+    .amenities>h3{
+        text-align: center;
+    }
+    .hero-section{
+        margin-bottom: 0px;
+    }
+    .book-button,
+    .know-more{
+        font-size: 1rem;
+
+    }
+    .room-list h4{
+        text-align: center;
+    }
+    form{
+        margin: 0rem 0rem 2rem 0rem; /*top right bottom left  */
+    }
+    label{
+        font-size: inherit;
+    }
+    .form-heading{
+        margin: 0.75rem 0rem;
+
+    }
+    /*.room-images img{
+        width: 300px;
+        height: 200px;  below 500px it will applied
+        
+        }*/
+
+    
+}/*anything will go inside this.. the style will be triggered until maximum width is 500px*/
+/* and after 500px the normal css properties will be applied*/
+@media only screen and (min-width:501px) and (max-width: 980px){
+    .hero-text>h1{
+        text-decoration: none;
+        font-size: 2rem;
+    }
+    
+.about-heading,
+.room-heading,
+.form-heading{
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+p{
+    font-size: 0.9rem;/* for laptop screen*/
+}
+.room-images img{
+    max-width:380px ;
+}
+.form-heading{
+    margin: 0.75rem 0rem;
+
+}
+
+label{
+    font-size: inherit;
+}
+form{
+    margin: 0rem 0rem 2rem 0rem; /*top right bottom left  */
+}
+    
+
+    
+}

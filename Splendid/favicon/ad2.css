@@ -1,0 +1,80 @@
+/* .box-model{
+    background-color: orange;
+    border:5px solid black;
+}
+.content{
+    background-color: rgb(54, 193, 54);
+    padding: 20px;
+    color: black;
+    border: 5px solid black ;
+    margin:20px;
+    width:200px;
+}*/
+body{
+    /* overflow: hidden;  there will be no scroll tab*/
+    overflow: scroll;/* you will get scroll bar*/
+
+
+}
+.container{
+    background-color: orange;
+    padding:20px;
+    height:200vh;
+    
+    
+    
+    /* position: relative; without this line first div para will reach its body overlapping */
+}
+.first{
+    background-color: rgb(64, 64, 214);
+    width:200px;
+    position: sticky;
+    color: yellow;
+    /* position:fixed; it comes to its actual position */
+    top :0;
+    left:0;
+    /*position:relative;
+    left:200px;*/
+    /* to make child element as absolute you should make parent a s relative */
+    /* position: absolute; it will overlap with second  div (it occupies space)  */
+    top:20px;
+    /* position: static; by default position is static no change*/
+}
+.first h2:hover{
+    color:red;
+} /* representation of pseudo class here pseudo class is hover*/
+
+  /*  .first h2{
+    color:yellow;
+}  it will select all h2 elements */
+
+
+/*  .first>h2{
+    color: yellow;
+
+} -----> It represents immediate child ,it will select all the immediate h2s > */
+
+
+.second{
+    background-color: yellow;
+
+    width:200px;
+    position:  ;
+
+}
+.third{
+    background-color: rgb(61, 206, 61);
+    width:200px;
+    position: ;
+}
+/*.first h2::before{
+    content:"hello ";
+} this is a pseudo element insertion before of element ,similarly after*/
+
+/* .first h2::first-letter{
+    color: black;
+} this is a pseudo element for targetting for letter*/
+input:focus{
+    background-color: aqua;
+
+} /* this is focus pseudo class when we click inside background will be aqua means focusing */

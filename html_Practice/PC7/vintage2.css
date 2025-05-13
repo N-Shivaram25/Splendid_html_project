@@ -1,0 +1,128 @@
+/* css box model contains height,width,border,padding,margin */
+/* content around space =padding and boundary=boder */
+/*content between content=margin, height units px*/
+
+#div1{
+    /*height: 200px;
+    background-color: tomato;
+    width:900px*/
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#div2{
+    /*height: 200px;
+    background-color: tomato;
+    width:900px*/
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+}
+#div3{
+    /*height: 200px;
+    background-color: tomato;
+    width:900px*/
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+}
+#div4{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: pink;
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    /*border-radius: 50px;*/
+    padding-left:25px;
+    padding-right: 50px;
+
+}
+
+
+/*when we inspect it will show width*height position*/
+/* border-style=solid/dotted/dashed */
+/*boder-width:in px*/
+/* boder color: for coloring border*/
+/*  */
+h1{
+    height: 50px;
+    width: 350px;
+    background-color: aquamarine;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: black; 
+    text-align: center;/* text aligned according to div not body*/
+
+}
+h2{
+    background-color: rgb(245, 10, 10);
+    border:3px solid black;
+    color:white;
+    border-radius: 10px;
+
+}
+/* border radius can be given in percentage or px*/
+/* the space between boder and content is called padding 
+padding:padding left right top bottom in px */
+/* padding shorthand--> padding:1px 2px px 4px; as top right bottom left*/
+/* margin shorthand--> pmargin:1px 2px px 4px; as top right bottom left*/
+/*Now practice of level3  */
+*{
+    padding:0;
+    margin:0;
+    color: white;
+
+}
+#navbar{
+    height:60px;
+    background-color: black;
+    color:white;
+}
+.search{
+    background-color: #f08804;
+
+}
+button{
+    background-color: #f08804;
+    display:block;/*it changes inline element div to an block element */
+
+
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    color:white
+}
+#logo{
+    color:#f08804;
+    font-size:25px;
+}
+input{
+    margin-left: 200px;
+}
+
+/* To get space between two anchor tags  border, we use margin */
+/*Topic:Display Property:inline/block/inline-block/none
+block:occupies  full width
+inline:takes as much it required,no margin,padding
+block elements ex:div,h1.
+inline elements ex:span,button,input,anchor tag*/
+.display-div{
+    background-color: black;
+    display:inline;/*it changes block element div to an inline */
+}
